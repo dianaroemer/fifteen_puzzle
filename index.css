@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    background-color: bisque;
+
+}
+
+#container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: solid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.slot {
+    background-color: seashell;
+    margin: 4px 4px 4px 4px;
+    font-size: 20px;
+    display: flex;
+    border:solid;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+}
